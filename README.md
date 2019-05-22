@@ -14,7 +14,7 @@ CA bundle is derived from Mozilla's canonical set.
 You can use the `gocertifi` package as follows:
 
 ```go
-import "github.com/certifi/gocertifi"
+import "github.com/311devs/gocertifi"
 
 cert_pool, err := gocertifi.CACerts()
 ```
